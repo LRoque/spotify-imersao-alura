@@ -156,3 +156,44 @@ sidebar .cookies a:hover {
   margin: 0 0 8px 8px;
   border-radius: 20px;
 }
+
+.disclaimer-premium {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+}
+
+.disclaimer-premium .text {
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disclaimer-premium .disclaimer-premium__button button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 30px;
+  cursor: pointer;
+}
